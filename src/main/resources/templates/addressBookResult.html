@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1>Created an Addressbook</h1>
+<p th:text="'id: ' + ${newaddressbook.id}" />
+<a href="/addressbook">Create another addressbook</a><br>
+<a href="/buddyinfo">You can also populate it from here</a><br>
+<a href="/">back to home</a>
+</body>
+</html>
