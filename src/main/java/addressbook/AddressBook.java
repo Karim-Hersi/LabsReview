@@ -45,7 +45,7 @@ public class AddressBook {
 
     @Override
     public String toString() {
-        return "addressbook.addressbook{" +
+        return " addressbook.addressbook{" +
                 "budy_list=" + buddy_list +
                 '}';
     }
