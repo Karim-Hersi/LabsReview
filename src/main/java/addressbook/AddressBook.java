@@ -40,7 +40,7 @@ public class AddressBook {
 
     public void addbudylist(BuddyInfo buddy){
 
-        //this.buddy_list.add(buddy);
+        this.buddy_list.add(buddy);
     }
 
     @Override
